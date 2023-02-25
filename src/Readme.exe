@@ -1,0 +1,24 @@
+ I have used two useState one for calculate and other for showing result.As 'result' is used for calculate and 'title'
+ used for showing result.
+
+Button ()-In this I'm passing one arguement of title and as you can see under return() in <Button title="title"/>
+
+on Clicking on the button its goes to the calculate() function in which I have passed an arguement i.e. title which matches in the switch 
+condition in which it matches the condition or it goes to default case in which I have used useState() hooks for set the value and 
+on the other cases as well.
+ 
+ If the user clicks on the '=' or any button then the value of the state will change other wise the value will set int the set.
+ 
+ If the user click on the '=' it calls the calculate() function which has  switch condition matches the cases,under '=' case I have used Number()
+ for converting string into number and as I have used eval() which returns  its completion value and set the value in the 'title'.
+
+If the user click on the 'C' it calls the calculate() function which has  switch condition matches the cases,under 'C' case I have used both 
+ useState to be empty.
+
+If the user click on the 'DEL' it calls the calculate() function which has  switch condition matches the cases,under 'DEL' case I have  used both 
+useState .In which the 'result' to delete the last value from the state and other 'title' to be empty.
+
+
+
+
+
